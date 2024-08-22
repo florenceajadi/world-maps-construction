@@ -21,18 +21,17 @@ The map shows the data is visualized, using a heatmap palette ranging from green
 </p>
 <br />
  <p>
-  <img src="" height="80%" width="80%" />
+  <img src="https://github.com/user-attachments/assets/3acfceaf-7f46-46c2-b6ed-96d1e75c4a84" height="80%" width="80%" />
 </p>
 <p>
-
+This code is designed to visualize malicious network flows, pulling data from 'AzureNetworkAnalytics_CL' specifically looking for entries where 'FlowType_s' is 'MaliciousFlow'. It also shows these flows by the time they were generated 
+  and selects relevant info like Source IP, destination IP, port, protocol, and any matched NSG rules. It uses IP address from the flow data to look up geolocation info using the previously loaded watchlist.
 </p>
-  <img src="" height="80%" width="80%" />
+  <img src="https://github.com/user-attachments/assets/2713d12b-843c-4487-81f5-6c9264a3da34" height="80%" width="80%" />
 <p>
-
+The results are displayed on a map with markers representing the location of the malicious flows based on their IP addresses. The map also uses a heatmap to show where the most malicious activity is coming from. 
 </p>
 <br />
-  <img src="" height="80%" width="80%" />
-<p></p>
   
   <img src="https://github.com/user-attachments/assets/d93268d8-3a32-4c78-a5c7-95ce53cab27e" height="80%" width="80%" />
 <p>This code is a JSON config that creates a visualization of failed login attempts (Event ID 4625) mapped to geographic locations based on IP addresses. It uses a watchlist called 'geoip' to get location data for IP addresses.

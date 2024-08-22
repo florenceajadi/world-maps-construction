@@ -15,7 +15,7 @@ IP addresses with geographical locations like latitude, city, country, and longi
 </p>
 <p>this is an attack on an MS SQL server. The GeoIPDB_FULL loads the watchlist 'geoip' that contains geolocation data for IP addresses. I'm able to extract IP: addresses from event logs using IPAddress_REGEX_PATTERN. 
 This query is simply looking for events in the Application log with Event ID 18456, which relates to failed login attempts in SQL server. </p>
- <img src="" height="80%" width="80%" />
+ <img src="https://github.com/user-attachments/assets/f2f50325-63c3-480f-a189-ab43c790cd31" height="80%" width="80%" />
 <p>
 The map shows the data is visualized, using a heatmap palette ranging from green to red to show the intensity of attacks. Also the results are on the map, showing the locations of the attackers based on their IP addresses.
 </p>
